@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "proveedores")
-//Crea de la tabla
+
 public class proveedoresModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
